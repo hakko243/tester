@@ -1,0 +1,95 @@
+<html>
+    <head>
+      <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABOUT US-PIK-R NEAL</title>
+        <link rel="stylesheet" href="about us.css"/>
+    </head>
+    <body>
+         <nav class="navbar">
+    <div class="nav-logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <ul class="nav-menu">
+        <li><a href="index.html" >HOME</a></li>
+        <li><a href="ABOUT.html" class="active">ABOUT US</a></li>
+        <li><a href="KEGIATAN.html">KEGIATAN</a></li>
+        <li><a href="KONSELING.html">KONSELING</a></li>
+    </ul>
+</nav>
+    <div class="home">
+        <div class="ruangtamu"><h1>our story</h1></div>
+        <div class="ruangtamu1"><h3>About Us</h3></div>
+    </div>
+    <div class="home1">
+      <img src="logo.png" height="300px">
+        <ul><li>Nama Nearos Alpha berasal dari kata “Nearos” dalam bahasa Yunani yang berarti remaja, dan “Alpha” yang menggambarkan pribadi percaya diri serta berwibawa. Makna ini mencerminkan harapan agar setiap anggota PIK-R NEAL tumbuh sebagai remaja yang kuat, yakin pada diri sendiri, dan mampu memberi pengaruh positif.</li>
+        <li>Logo PIK-R NEAL juga memiliki makna mendalam. Figur orang melambangkan para remaja sebagai bagian utama dari organisasi, sementara bentuk rumah menggambarkan bahwa PIK-R NEAL bukan sekadar wadah kegiatan, tetapi juga tempat pulang yang aman dan nyaman bagi setiap anggotanya. Lingkaran mencerminkan keberlanjutan dan keterhubungan, sedangkan perbedaan warna serta posisi menunjukkan keberagaman karakter dan potensi yang menyatu dalam satu tujuan. Setiap warna memiliki maknanya: emas melambangkan kejayaan, navy menggambarkan wibawa dan keteguhan, orange mewakili kreativitas dan kehangatan, merah simbol semangat dan keberanian, serta biru muda mencerminkan ketenangan dan kedewasaan dalam berpikir.</li>
+       </ul>
+    </div>
+    <div class="meet-container">
+        <h5 class="meet">MEET</h5>
+        <h5 class="ourteam">Our Team</h5>
+    </div>
+   <div class="team"> <img src="ketua.jpeg" height="550px"> 
+    <img src="wakil.jpeg" height="550px"> </div> 
+   <div class="team1"> <img src="sekret.jpeg" height="550px"> 
+    <img src="bendahara.jpeg" height="550px"> </div>
+
+<div class="ruangatas2"><h2>DIVISI</h2></div>
+<div class="slider-wrapper">
+<button class="slider-btn left" onclick="slideLeft()">&#10094;</button>
+  <button class="slider-btn right" onclick="slideRight()">&#10095;</button>
+
+  <div class="card-container" id="cardSlider">
+    <!-- CARD KAMU (TIDAK DIUBAH) -->
+    <div class="card">
+      <ul>
+        <li><img src="koor sdm.jpeg" height="250"></li>
+        <li><h4>divisi SDM</h4></li>
+        <li><div class="card1"><a href="ketua sdm.html">selengkapnya</a></div></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <ul>
+        <li><img src="koor advokasi.jpeg" height="250"></li>
+        <li><h4>divisi ADVOKASI & KIE</h4></li>
+        <li><div class="card1"><a href="ketua advokasi.html">selengkapnya</a></div></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <ul>
+        <li><img src="koor humas.jpeg" height="250"></li>
+        <li><h4>divisi HUMAS</h4></li>
+        <li><div class="card1"><a href="ketua humas.html">selengkapnya</a></div></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <ul>
+        <li><img src="koor konseling.jpeg" height="250"></li>
+        <li><h4>divisi KONSELING</h4></li>
+        <li><div class="card1"><a href="ketua konseling.html">selengkapnya</a></div></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<script>
+function slideRight() {
+  const slider = document.getElementById("cardSlider");
+  slider.scrollLeft += 320; // geser 1 card
+}
+
+function slideLeft() {
+  const slider = document.getElementById("cardSlider");
+  slider.scrollLeft -= 320; // ke kiri
+}
+</script>
+
+    </body>
+</html>
